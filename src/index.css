@@ -1,0 +1,124 @@
+*{
+  margin: 0px; padding: 0px; box-sizing: border-box;
+  
+ 
+}
+.maindiv{
+width: 100%;
+height: 100vh;
+background: grey;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.centerdiv{
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 15px;
+}
+h1{
+  color: white;
+  background-color: blueviolet;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(44, 204, 44);
+}
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  width: 60%;
+  border-bottom: 2px solid blueviolet;
+  outline:  none;
+
+}
+.btn{
+  min-height: 14px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+margin-left: 10px ;
+
+
+}
+.btn:hover{
+  background-color: rgb(44, 204, 44);
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 5px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: blueviolet;
+  text-transform: capitalize;
+
+}
+.logo i{
+ width: 20px;
+ height: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: blueviolet;
+ border-radius: 50px;
+ color: #fff;
+
+ 
+}
+.logo i:hover{
+  background-color: red;
+}
+button{
+  min-height: 25px;
+  width: 25vh;
+ 
+  border-color: transparent;
+ background-color: blueviolet;
+ color: #fff;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+margin-left: 10px ;
+}
+button:hover{
+  background-color: red;
+}
+
+
+@media(max-width:760px){
+  .centerdiv{
+    width: 55%;
+  }
+  .logo i{
+    margin: 0 15px 0 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #ffff;
+    font-size: 30px;
+  }
+}
